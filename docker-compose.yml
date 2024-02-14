@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hnrss:
+    image: cascadingstyletrees/hnrss-docker:latest
+    container_name: hnrss
+    ports:
+      - 9000:9000
+    restart: unless-stopped
