@@ -40,6 +40,6 @@ sed -i 's/127.0.0.1/0.0.0.0/' $WORKDIR/hnrss/main.go
 echo "Building HNRSS..."
 cd $WORKDIR/hnrss
 make
-ls -la
+
 # Run the HNRSS application
 exec $WORKDIR/hnrss/hnrss_linux_amd64
